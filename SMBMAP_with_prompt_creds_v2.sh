@@ -1,9 +1,9 @@
 #!/bin/bash
 #################################################################
-#Ejemplo 1 | Comando de ejecución (1 host):			#
+# Ejemplo 1 | Comando de ejecución (1 host):			#
 #	./script.sh -u usuario -d dominio -H IP			#
 #								#
-#Ejemplo 2 | Comando de ejecución (Múltiples hosts):  		#
+# Ejemplo 2 | Comando de ejecución (Múltiples hosts):  		#
 #	./script.sh -u usuario -d dominio -f ./archivo.txt	#
 #################################################################
 while [[ $# -gt 0 ]]
