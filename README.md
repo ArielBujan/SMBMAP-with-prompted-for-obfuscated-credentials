@@ -1,1 +1,1 @@
-# SMBMAP-with-prompted-for-obfuscated-credentials v1 (Just single target)
+# Script run SMBMAP with prompt for obfuscated credentials
