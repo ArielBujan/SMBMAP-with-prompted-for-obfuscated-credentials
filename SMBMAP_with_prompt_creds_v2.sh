@@ -66,9 +66,9 @@ then
 	else
 		while read -r IP
 			do
-			echo [+] ************ Host: $IP ************ >> output_$IP.txt
+			echo '[+] ************ Host: $IP ************' >> output_$IP.txt
 			smbmap -u ${USER} -p ${PASSWORD} -d $DOMAIN -R --depth 1 -H $IP >> output_$IP.txt
-			echo [+] ************ Finaliza $IP ************\n\n >> output_$IP.txt
+			echo '[+] ************ Finaliza $IP ************\n\n' >> output_$IP.txt
 		done < "$HostFile"
 	fi
 fi
